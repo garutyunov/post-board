@@ -1,0 +1,12 @@
+.post {
+  padding: 20px 20px;
+  min-height: 240px;
+
+  .content {
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+  }
+}

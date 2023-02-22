@@ -1,0 +1,15 @@
+.textArea {
+  width: 100%;
+  height: 255px;
+  resize: none;
+  overflow: auto;
+}
+
+.controls {
+  display: flex;
+  justify-content: end;
+}
+
+.controls > button:not(:last-child) {
+  margin-right: 5px;
+}

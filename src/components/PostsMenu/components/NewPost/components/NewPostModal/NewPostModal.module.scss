@@ -1,0 +1,16 @@
+.authorInput {
+  width: 100%;
+}
+.textArea {
+  width: 100%;
+  height: 255px;
+  resize: none;
+  overflow: auto;
+}
+.controls {
+  display: flex;
+  justify-content: end;
+}
+.controls :first-child {
+  margin-right: 5px;
+}

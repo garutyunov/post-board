@@ -1,0 +1,30 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 400 14px/21px 'Roboto';
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+

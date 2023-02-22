@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Note } from '../../../../types/types';
 import styles from './Post.module.scss';
 import Modal from '@mui/material/Modal';
-import CustomModal from '../../../CustoModal';
+import CustomModal from '../../../CustomModal';
 import PostModal from './components/PostModal';
 
 type Props = {

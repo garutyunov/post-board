@@ -3,7 +3,7 @@ import styles from './NewPost.module.scss';
 import AddIcon from '@mui/icons-material/Add';
 import Modal from '@mui/material/Modal';
 import NewPostModal from './components/NewPostModal';
-import CustomModal from '../../../CustoModal';
+import CustomModal from '../../../CustomModal';
 import { Note } from '../../../../types/types';
 
 type Props = {
